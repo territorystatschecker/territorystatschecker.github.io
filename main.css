@@ -1,0 +1,189 @@
+input[type=button]
+{
+width: 50%;
+background-color: #505050;
+color: white;
+padding: 15px 15px;
+margin: 4px 0;
+border: none;
+border-radius: 0px;
+cursor: pointer;
+}
+
+input[type=text]
+{
+width: 100%;
+padding: 8px 8px;
+margin: 8px 0;
+display: inline-block;
+border: 2px solid #505050;
+border-radius: 4px;
+box-sizing: border-box;
+height: 1%;
+}
+
+
+select
+{
+width: 100%;
+margin: 8px 0;
+padding: 8px 8px;
+border: 6px solid transparent;
+border-radius: 4px;
+box-sizing: border-box;
+height: 2%;
+background-color: #D3D3D3;
+}
+
+.hqdiv
+{
+min-height: 20%;
+background-color: white;
+position: absolute;
+top: 10%;
+left: 0px;
+width: 50%;
+min-height: 100%;
+}
+
+.normaldiv
+{
+background-color: white;
+position: absolute;
+top: 10%;
+left: 50%;
+width: 50%;
+min-height: 100%;
+}
+
+#damagendiv
+{
+position: absolute;
+background-color: white;
+top: 10%;
+left: 10%;
+width: 35%;
+}
+
+#asndiv
+{
+position: absolute;
+background-color: white;
+top: 10%;
+left: 55%;
+width: 35%;
+}
+
+#hpndiv
+{
+position: absolute;
+background-color: white;
+top: 24%;
+left: 10%;
+width: 35%;
+}
+
+#defndiv
+{
+position: absolute;
+background-color: white;
+top: 24%;
+left: 55%;
+width: 35%;
+}
+
+#conndiv
+{
+position: absolute;
+top: 38%;
+left: 25%;
+width: 50%;
+}
+
+#ncheck
+{
+position: absolute;
+top: 51%;
+left: 25%;
+width: 100%;
+}
+
+#conhqdiv
+{
+position: absolute;
+background-color: white;
+top: 10%;
+left: 10%;
+width: 35%;
+}
+
+#exthqdiv
+{
+position: absolute;
+background-color: white;
+top: 10%;
+left: 55%;
+width: 35%;
+}
+
+#damagehqdiv
+{
+position: absolute;
+background-color: white;
+top: 23%;
+left: 10%;
+width: 35%;
+}
+
+#ashqdiv
+{
+position: absolute;
+background-color: white;
+top: 23%;
+left: 55%;
+width: 35%;
+}
+
+#hphqdiv
+{
+position: absolute;
+background-color: white;
+top: 37%;
+left: 10%;
+width: 35%;
+}
+
+#defhqdiv
+{
+position: absolute;
+background-color: white;
+top: 37%;
+left: 55%;
+width: 35%;
+}
+
+#hqcheck
+{
+position: absolute;
+top: 50%;
+left: 25%;
+width: 100%;
+}
+
+#hqresult
+{
+position: absolute;
+top: 64%;
+left: 10%;
+width: 100%;
+font-size: 20px;
+}
+
+#nresult
+{
+position: absolute;
+top: 64%;
+left: 10%;
+width: 100%;
+font-size: 20px;
+}

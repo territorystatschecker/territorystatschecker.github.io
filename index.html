@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="main.css">
+<script src="main.js"></script>
+<title>Territory Stats Checker</title>
+</head>
+
+<body>
+
+<h1 style="text-align: center;">Territory Stats Checker v1</h1>
+<div class="hqdiv">
+
+<h2 style="text-align: center;">HQ Stats Checker</h2><br>
+<form>
+
+<div id="conhqdiv"><label for="conshq">Number of cons: </label><br><input type="text" name="conshq" id="conshq"></div>
+
+<div id="exthqdiv"><label for="ext">Number of externals: </label><br><input type="text" name="ext" id="ext"></div>
+
+<div id="damagehqdiv">
+<label for="damagehq">Damage: </label><br>
+<select name="damagehq" id="damagehq">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<div id="ashqdiv">
+<label for="ashq">Attack Speed: </label><br>
+<select name="ashq" id="ashq">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<div id="hphqdiv">
+<label for="hphq">Health: </label><br>
+<select name="hphq" id="hphq">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<div id="defhqdiv">
+<label for="defhq">Defense: </label><br>
+<select name="defhq" id="defhq">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<p id="hqcheck"><input type="button" id="submit" value="Check" onclick="hqcheck()"></p>
+
+<p id="hqresult"></p>
+
+</form>
+
+</div>
+
+<div class="normaldiv">
+
+<h2 style="text-align: center;">Normal Territory Stats Checker</h2><br>
+
+<form>
+
+<div id="damagendiv">
+<label for="damagen">Damage: </label><br>
+<select name="damagen" id="damagen">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<div id="asndiv">
+<label for="asn">Attack Speed: </label><br>
+<select name="asn" id="asn">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<div id="hpndiv">
+<label for="hpn">Health: </label><br>
+<select name="hpn" id="hpn">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<div id="defndiv">
+<label for="defn">Defense: </label><br>
+<select name="defn" id="defn">
+<option value="0">No Upgrade</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+</select></div>
+
+<div id="conndiv"><label for="consn">Number of territory connections: </label><br><input type="text" name="consn" id="consn"></div>
+
+<p id="ncheck"><input type="button" id="submit" value="Check" onclick="ncheck()"></p>
+
+<p id="nresult"></p>
+
+</form>
+</div>
+
+</body>
+</html>
