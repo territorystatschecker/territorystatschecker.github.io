@@ -1,3 +1,6 @@
+var viewport = document.querySelector("meta[name=viewport]");
+viewport.setAttribute("content", viewport.content + ", height=" + window.innerHeight);
+
 const hpm= [1,1.5,2,2.5,3.2,4,5,6.2,7.4,8.6,9.8,11];
 const dmgm= [1,1.4,1.8,2.2,2.6,3,3.4,3.8,4.2,4.6,5,5.4];
 const defv= ["10%","40%","55%","62.5%","70%","75%","79%","82%","84%","86%","88%","90%"];
