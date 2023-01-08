@@ -20,7 +20,7 @@ var highdmg= 1500 * dmgm[Number(document.getElementById("damagen").value)] * (1 
 
 if((hp<300000000)&&(highdmg<500000))
 {
-document.getElementById("nresult").innerHTML="HQ Guild Tower Stats: <br><br>" + "<font color='#AA0000'>" + parseInt(hp) + " </font><font color='#AAAAAA'>(</font><font color='#FFAA00'>" + defv[Number(document.getElementById("defn").value)] + "</font><font color='#AAAAAA'>) - </font><font color='#FF5555'>" + parseInt(lowdmg) + "-" + parseInt(highdmg) + " <font color='#AAAAAA'>(</font><font color='#55FFFF'>" + asv[Number(document.getElementById("asn").value)] + "</font><font color='#AAAAAA'>)</font>";
+document.getElementById("nresult").innerHTML="Guild Tower Stats: <br><br>" + "<font color='#AA0000'>" + parseInt(hp) + " </font><font color='#AAAAAA'>(</font><font color='#FFAA00'>" + defv[Number(document.getElementById("defn").value)] + "</font><font color='#AAAAAA'>) - </font><font color='#FF5555'>" + parseInt(lowdmg) + "-" + parseInt(highdmg) + " <font color='#AAAAAA'>(</font><font color='#55FFFF'>" + asv[Number(document.getElementById("asn").value)] + "</font><font color='#AAAAAA'>)</font>";
 }
 else
 {
@@ -40,7 +40,7 @@ var highdmg= 1500 * dmgm[Number(document.getElementById("damagent").value)] * (1
 
 if((hp<300000000)&&(highdmg<500000))
 {
-document.getElementById("nresult").innerHTML="HQ Guild Tower Stats: <br><br>" + "<font color='#AA0000'>" + parseInt(hp) + " </font><font color='#AAAAAA'>(</font><font color='#FFAA00'>" + defv[Number(document.getElementById("defnt").value)] + "</font><font color='#AAAAAA'>) - </font><font color='#FF5555'>" + parseInt(lowdmg) + "-" + parseInt(highdmg) + " <font color='#AAAAAA'>(</font><font color='#55FFFF'>" + asv[Number(document.getElementById("asnt").value)] + "</font><font color='#AAAAAA'>)</font>";
+document.getElementById("nresult").innerHTML="Guild Tower Stats: <br><br>" + "<font color='#AA0000'>" + parseInt(hp) + " </font><font color='#AAAAAA'>(</font><font color='#FFAA00'>" + defv[Number(document.getElementById("defnt").value)] + "</font><font color='#AAAAAA'>) - </font><font color='#FF5555'>" + parseInt(lowdmg) + "-" + parseInt(highdmg) + " <font color='#AAAAAA'>(</font><font color='#55FFFF'>" + asv[Number(document.getElementById("asnt").value)] + "</font><font color='#AAAAAA'>)</font>";
 }
 else
 {
